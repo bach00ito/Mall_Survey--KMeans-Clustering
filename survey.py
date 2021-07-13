@@ -35,3 +35,5 @@ plt.xlabel('Annual Income (k$)')
 plt.ylabel('Spending Score (1-100)')
 plt.legend()
 plt.show()
+from sklearn.metrics import silhouette_score
+print(silhouette_score(X,y_kmeans))
